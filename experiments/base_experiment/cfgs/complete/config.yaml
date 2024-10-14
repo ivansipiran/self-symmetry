@@ -1,0 +1,9 @@
+save_path: ./results
+dataset:
+  {
+    _base_: cfgs/dataset_configs/ShapeNet.yaml,
+    split: "complete",
+  }
+
+screenshot:
+  enable: False

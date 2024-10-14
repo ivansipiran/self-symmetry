@@ -1,0 +1,24 @@
+save_path: ./results
+dataset:
+  {
+    _base_: cfgs/dataset_configs/ShapeNet.yaml,
+    split: "complete",
+  }
+
+screenshot:
+  enable: False
+
+num_points: 2048
+sampling_mode: "random"
+D1: 8000
+D2: 8000
+iterations: 500
+model: "PointNet_3vector"
+optimizer: "Adam"
+scheduler: "CosineLR"
+scheduler_restart: 100
+batch_size: 1
+epochs: 1
+mse: True
+category: None
+lr: 0.01

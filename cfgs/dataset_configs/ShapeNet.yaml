@@ -1,0 +1,3 @@
+NAME: ShapeNet
+DATA_PATH: /data/Datasets2/ShapeNetCore.v2/symmetry_pc
+N_POINTS: 8192
